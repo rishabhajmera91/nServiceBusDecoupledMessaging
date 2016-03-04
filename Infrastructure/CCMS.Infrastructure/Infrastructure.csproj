@@ -122,15 +122,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DependencyRegistrarOptions.cs" />
-    <Compile Include="Interfaces\IContainer.cs" />
+    <Compile Include="DependencyRegistryOptions.cs" />
+    <Compile Include="Interfaces\IDependencyContainer.cs" />
     <Compile Include="Interfaces\IDependencyRegistry.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Interfaces\IDependencyResolver.cs" />
     <Compile Include="IoC.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RegistrarBase.cs" />
+    <Compile Include="RegistryBase.cs" />
     <Compile Include="ServiceBus\ICommand.cs" />
     <Compile Include="ServiceBus\IEvent.cs" />
     <Compile Include="ServiceBus\IHandle.cs" />

@@ -25,7 +25,7 @@ namespace Subscriber.Main
 
         private static void SetContainer()
         {
-            IoC.SetContainer(new UnityIocContainer());
+            IoC.SetContainer(new UnityDependencyContainer());
         }
     }
 }

@@ -4,11 +4,11 @@ using Microsoft.Practices.Unity;
 
 namespace Infrastructure.UnityContainer
 {
-    public class UnityRegistry : RegistrarBase
+    public class UnityDependencyRegistry : RegistryBase
     {
         private readonly IUnityContainer _container;
 
-        public UnityRegistry(IUnityContainer container)
+        public UnityDependencyRegistry(IUnityContainer container)
         {
             _container = container;
         }

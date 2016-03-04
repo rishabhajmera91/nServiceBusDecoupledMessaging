@@ -3,13 +3,13 @@ using Infrastructure.Interfaces;
 
 namespace Infrastructure
 {
-    public abstract class RegistrarBase : IDependencyRegistry
+    public abstract class RegistryBase : IDependencyRegistry
     {
-        protected DependencyRegistrarOptions _options { get; set; }
+        protected DependencyRegistryOptions _options { get; set; }
 
-        protected RegistrarBase()
+        protected RegistryBase()
         {
-            _options = new DependencyRegistrarOptions();
+            _options = new DependencyRegistryOptions();
         }
 
         public bool IsRegistered<T>(string name = null)
@@ -68,7 +68,7 @@ namespace Infrastructure
 
         protected void ResetRegisterOptions()
         {
-            _options = new DependencyRegistrarOptions();
+            _options = new DependencyRegistryOptions();
         }
     }
 }

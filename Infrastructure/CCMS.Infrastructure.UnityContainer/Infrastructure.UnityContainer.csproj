@@ -130,10 +130,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="UnityIocContainer.cs" />
+    <Compile Include="UnityDependencyContainer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UnityRegistry.cs" />
-    <Compile Include="UnityResolver.cs" />
+    <Compile Include="UnityDependencyRegistry.cs" />
+    <Compile Include="UnityDependencyResolver.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

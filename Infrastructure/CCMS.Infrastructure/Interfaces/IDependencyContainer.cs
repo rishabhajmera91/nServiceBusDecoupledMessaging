@@ -1,6 +1,6 @@
 ﻿namespace Infrastructure.Interfaces
 {
-    public interface IContainer
+    public interface IDependencyContainer
     {
         IDependencyRegistry Registry { get; set; }
         IDependencyResolver Resolver { get; set; }
