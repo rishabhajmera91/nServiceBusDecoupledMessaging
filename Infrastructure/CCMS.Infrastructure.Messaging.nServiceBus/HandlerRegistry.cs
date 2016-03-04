@@ -1,9 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using CCMS.Infrastructure.ServiceBus;
 
-namespace CCMS.Infrastructure.Messaging.nServiceBus
+namespace Infrastructure.Messaging.nServiceBus
 {
     public class HandlerRegistry
     {

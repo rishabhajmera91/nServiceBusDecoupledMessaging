@@ -1,7 +1,7 @@
-﻿using CCMS.Infrastructure;
-using CCMS.Infrastructure.Messaging.nServiceBus;
-using CCMS.Infrastructure.ServiceBus;
-using CCMS.Infrastructure.UnityContainer;
+﻿using Infrastructure;
+using Infrastructure.Messaging.nServiceBus;
+using Infrastructure.ServiceBus;
+using Infrastructure.UnityContainer;
 
 namespace Client.Main
 {

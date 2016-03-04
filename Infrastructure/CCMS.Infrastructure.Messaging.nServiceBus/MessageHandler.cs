@@ -1,12 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using CCMS.Infrastructure.ServiceBus;
 using NServiceBus;
 
-namespace CCMS.Infrastructure.Messaging.nServiceBus
+namespace Infrastructure.Messaging.nServiceBus
 {
     public class MessageHandler : IHandleMessages<Object>
     {

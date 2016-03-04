@@ -59,9 +59,9 @@
       <Project>{6BC91D86-6487-49B8-8AC4-0AF9B145C477}</Project>
       <Name>Client.Main</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Infrastructure\CCMS.Infrastructure\CCMS.Infrastructure.csproj">
+    <ProjectReference Include="..\Infrastructure\CCMS.Infrastructure\Infrastructure.csproj">
       <Project>{B78B9D6D-2266-4B68-99BA-2A764D42EB04}</Project>
-      <Name>CCMS.Infrastructure</Name>
+      <Name>Infrastructure</Name>
     </ProjectReference>
     <ProjectReference Include="..\Shared\Shared.csproj">
       <Project>{5728de02-c264-4697-b554-dda5fad10a47}</Project>

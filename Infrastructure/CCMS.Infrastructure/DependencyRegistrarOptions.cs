@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CCMS.Infrastructure
+namespace Infrastructure
 {
     public class DependencyRegistrarOptions
     {

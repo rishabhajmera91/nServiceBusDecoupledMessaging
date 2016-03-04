@@ -1,4 +1,4 @@
-﻿using CCMS.Infrastructure.ServiceBus;
+﻿using Infrastructure.ServiceBus;
 
 #region PlaceOrderHandler
 

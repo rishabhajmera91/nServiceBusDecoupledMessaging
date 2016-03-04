@@ -1,13 +1,16 @@
 ﻿using NServiceBus.Config;
 using NServiceBus.Config.ConfigurationSource;
 
-class ConfigErrorQueue : IProvideConfiguration<MessageForwardingInCaseOfFaultConfig>
+namespace Infrastructure.Messaging.nServiceBus
 {
-    public MessageForwardingInCaseOfFaultConfig GetConfiguration()
+    class ConfigErrorQueue : IProvideConfiguration<MessageForwardingInCaseOfFaultConfig>
     {
-        return new MessageForwardingInCaseOfFaultConfig
-               {
-                   ErrorQueue = "error"
-               };
+        public MessageForwardingInCaseOfFaultConfig GetConfiguration()
+        {
+            return new MessageForwardingInCaseOfFaultConfig
+            {
+                ErrorQueue = "error"
+            };
+        }
     }
 }

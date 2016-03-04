@@ -47,17 +47,17 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Infrastructure\CCMS.Infrastructure.Messaging.nServiceBus\CCMS.Infrastructure.Messaging.nServiceBus.csproj">
+    <ProjectReference Include="..\Infrastructure\CCMS.Infrastructure.Messaging.nServiceBus\Infrastructure.Messaging.nServiceBus.csproj">
       <Project>{1C2607C4-CB24-4AE7-BB77-C637E75FC989}</Project>
-      <Name>CCMS.Infrastructure.Messaging.nServiceBus</Name>
+      <Name>Infrastructure.Messaging.nServiceBus</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Infrastructure\CCMS.Infrastructure.UnityContainer\CCMS.Infrastructure.UnityContainer.csproj">
+    <ProjectReference Include="..\Infrastructure\CCMS.Infrastructure.UnityContainer\Infrastructure.UnityContainer.csproj">
       <Project>{C4D29F10-B515-4211-BFEE-206DEA40D962}</Project>
-      <Name>CCMS.Infrastructure.UnityContainer</Name>
+      <Name>Infrastructure.UnityContainer</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Infrastructure\CCMS.Infrastructure\CCMS.Infrastructure.csproj">
+    <ProjectReference Include="..\Infrastructure\CCMS.Infrastructure\Infrastructure.csproj">
       <Project>{B78B9D6D-2266-4B68-99BA-2A764D42EB04}</Project>
-      <Name>CCMS.Infrastructure</Name>
+      <Name>Infrastructure</Name>
     </ProjectReference>
     <ProjectReference Include="..\Server.AppService\Server.AppService.csproj">
       <Project>{479ED715-4105-45B8-836B-7FBC2856C8BE}</Project>

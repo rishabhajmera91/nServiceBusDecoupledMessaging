@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using CCMS.Infrastructure.ServiceBus;
-using NServiceBus;
-using ICommand = CCMS.Infrastructure.ServiceBus.ICommand;
-using IEvent = CCMS.Infrastructure.ServiceBus.IEvent;
+﻿using NServiceBus;
 
-namespace CCMS.Infrastructure.Messaging.nServiceBus
+namespace Infrastructure.Messaging.nServiceBus
 {
     public class NServiceBusConfigurator<TCommand, TEvent>
     {

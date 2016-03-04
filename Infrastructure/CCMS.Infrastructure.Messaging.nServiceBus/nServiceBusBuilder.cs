@@ -1,9 +1,6 @@
-﻿using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using CCMS.Infrastructure.ServiceBus;
+﻿using Infrastructure.ServiceBus;
 
-namespace CCMS.Infrastructure.Messaging.nServiceBus
+namespace Infrastructure.Messaging.nServiceBus
 {
     public class NServiceBusBuilder<TCommand, TEvent>
     {

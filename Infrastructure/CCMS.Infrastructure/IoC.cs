@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using CCMS.Infrastructure.Interfaces;
+using Infrastructure.Interfaces;
 
-namespace CCMS.Infrastructure
+namespace Infrastructure
 {
     public static class IoC
     {
@@ -15,7 +15,7 @@ namespace CCMS.Infrastructure
 
         public static void RegisterAsSingleton<T1, T2>(T2 instance = null) where T2 : class
         {
-            Container.Registrar.Singleton(instance).Register<T1, T2>();
+            Container.Registry.Singleton(instance).Register<T1, T2>();
         }
 
         public static T Resolve<T>()
@@ -25,17 +25,17 @@ namespace CCMS.Infrastructure
 
         public static void Register<T1, T2>(string name = null) where T2 : class
         {
-            Container.Registrar.Register(typeof(T1), typeof(T2), name);
+            Container.Registry.Register(typeof(T1), typeof(T2), name);
         }
 
         public static void Register(Type from, Type to, string name = null)
         {
-            Container.Registrar.Register(from, to, name);
+            Container.Registry.Register(from, to, name);
         }
 
         public static void RegisterInstance<T1>(T1 instance)
         {
-            Container.Registrar.Singleton(instance).Register<T1, T1>();
+            Container.Registry.Singleton(instance).Register<T1, T1>();
         }
 
         public static object Resolve(Type from, string name = null, Dictionary<string, object> parameterOverrides = null)

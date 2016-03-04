@@ -49,9 +49,9 @@
     <Compile Include="PlaceOrder.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Infrastructure\CCMS.Infrastructure\CCMS.Infrastructure.csproj">
+    <ProjectReference Include="..\Infrastructure\CCMS.Infrastructure\Infrastructure.csproj">
       <Project>{b78b9d6d-2266-4b68-99ba-2a764d42eb04}</Project>
-      <Name>CCMS.Infrastructure</Name>
+      <Name>Infrastructure</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

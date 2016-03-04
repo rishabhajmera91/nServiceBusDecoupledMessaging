@@ -47,17 +47,17 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Infrastructure\CCMS.Infrastructure.Messaging.nServiceBus\CCMS.Infrastructure.Messaging.nServiceBus.csproj">
+    <ProjectReference Include="..\Infrastructure\CCMS.Infrastructure.Messaging.nServiceBus\Infrastructure.Messaging.nServiceBus.csproj">
       <Project>{1C2607C4-CB24-4AE7-BB77-C637E75FC989}</Project>
-      <Name>CCMS.Infrastructure.Messaging.nServiceBus</Name>
+      <Name>Infrastructure.Messaging.nServiceBus</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Infrastructure\CCMS.Infrastructure.UnityContainer\CCMS.Infrastructure.UnityContainer.csproj">
+    <ProjectReference Include="..\Infrastructure\CCMS.Infrastructure.UnityContainer\Infrastructure.UnityContainer.csproj">
       <Project>{c4d29f10-b515-4211-bfee-206dea40d962}</Project>
-      <Name>CCMS.Infrastructure.UnityContainer</Name>
+      <Name>Infrastructure.UnityContainer</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Infrastructure\CCMS.Infrastructure\CCMS.Infrastructure.csproj">
+    <ProjectReference Include="..\Infrastructure\CCMS.Infrastructure\Infrastructure.csproj">
       <Project>{B78B9D6D-2266-4B68-99BA-2A764D42EB04}</Project>
-      <Name>CCMS.Infrastructure</Name>
+      <Name>Infrastructure</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

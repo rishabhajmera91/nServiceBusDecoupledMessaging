@@ -1,6 +1,6 @@
 using System;
-using CCMS.Infrastructure;
-using CCMS.Infrastructure.ServiceBus;
+using Infrastructure;
+using Infrastructure.ServiceBus;
 using Subscriber.Main;
 
 class Program

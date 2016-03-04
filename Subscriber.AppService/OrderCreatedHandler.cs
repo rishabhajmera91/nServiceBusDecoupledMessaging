@@ -1,5 +1,5 @@
 ﻿using System;
-using CCMS.Infrastructure.ServiceBus;
+using Infrastructure.ServiceBus;
 
 #region OrderCreatedHandler
 public class OrderCreatedHandler : IHandle<OrderPlaced>

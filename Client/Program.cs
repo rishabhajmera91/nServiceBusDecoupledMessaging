@@ -1,8 +1,8 @@
 using System;
-using CCMS.Infrastructure;
-using CCMS.Infrastructure.ServiceBus;
 using Client;
 using Client.Main;
+using Infrastructure;
+using Infrastructure.ServiceBus;
 
 class Program
 {

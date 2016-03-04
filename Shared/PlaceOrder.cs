@@ -1,7 +1,9 @@
 ﻿
 using System;
+using Infrastructure.ServiceBus;
+
 #region PlaceOrder
-public class PlaceOrder : CCMS.Infrastructure.ServiceBus.ICommand
+public class PlaceOrder : ICommand
 {
     public Guid Id { get; set; }
 

@@ -13,11 +13,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Subscriber", "Subscriber\Su
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{661509ED-1A4B-4CFE-866D-67A10590660E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CCMS.Infrastructure", "Infrastructure\CCMS.Infrastructure\CCMS.Infrastructure.csproj", "{B78B9D6D-2266-4B68-99BA-2A764D42EB04}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\CCMS.Infrastructure\Infrastructure.csproj", "{B78B9D6D-2266-4B68-99BA-2A764D42EB04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CCMS.Infrastructure.UnityContainer", "Infrastructure\CCMS.Infrastructure.UnityContainer\CCMS.Infrastructure.UnityContainer.csproj", "{C4D29F10-B515-4211-BFEE-206DEA40D962}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.UnityContainer", "Infrastructure\CCMS.Infrastructure.UnityContainer\Infrastructure.UnityContainer.csproj", "{C4D29F10-B515-4211-BFEE-206DEA40D962}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CCMS.Infrastructure.Messaging.nServiceBus", "Infrastructure\CCMS.Infrastructure.Messaging.nServiceBus\CCMS.Infrastructure.Messaging.nServiceBus.csproj", "{1C2607C4-CB24-4AE7-BB77-C637E75FC989}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Messaging.nServiceBus", "Infrastructure\CCMS.Infrastructure.Messaging.nServiceBus\Infrastructure.Messaging.nServiceBus.csproj", "{1C2607C4-CB24-4AE7-BB77-C637E75FC989}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Publisher", "Publisher", "{6C2A8071-1C86-4E51-8D1F-F40B86DA5F37}"
 EndProject
@@ -43,59 +43,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{CB86AF
 	EndProjectSection
 EndProject
 Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 13
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = http://aicpa-tfs:8080/tfs/defaultcollection
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = Infrastructure\\CCMS.Infrastructure\\CCMS.Infrastructure.csproj
-		SccProjectTopLevelParentUniqueName1 = StepByStep.sln
-		SccProjectName1 = Infrastructure/CCMS.Infrastructure
-		SccLocalPath1 = Infrastructure\\CCMS.Infrastructure
-		SccProjectUniqueName2 = Infrastructure\\CCMS.Infrastructure.UnityContainer\\CCMS.Infrastructure.UnityContainer.csproj
-		SccProjectTopLevelParentUniqueName2 = StepByStep.sln
-		SccProjectName2 = Infrastructure/CCMS.Infrastructure.UnityContainer
-		SccLocalPath2 = Infrastructure\\CCMS.Infrastructure.UnityContainer
-		SccProjectUniqueName3 = Infrastructure\\CCMS.Infrastructure.Messaging.nServiceBus\\CCMS.Infrastructure.Messaging.nServiceBus.csproj
-		SccProjectTopLevelParentUniqueName3 = StepByStep.sln
-		SccProjectName3 = Infrastructure/CCMS.Infrastructure.Messaging.nServiceBus
-		SccLocalPath3 = Infrastructure\\CCMS.Infrastructure.Messaging.nServiceBus
-		SccProjectUniqueName4 = Server.AppService\\Server.AppService.csproj
-		SccProjectTopLevelParentUniqueName4 = StepByStep.sln
-		SccProjectName4 = Server.AppService
-		SccLocalPath4 = Server.AppService
-		SccProjectUniqueName5 = Client.Main\\Client.Main.csproj
-		SccProjectTopLevelParentUniqueName5 = StepByStep.sln
-		SccProjectName5 = Client.Main
-		SccLocalPath5 = Client.Main
-		SccProjectUniqueName6 = Server.Main\\Server.Main.csproj
-		SccProjectTopLevelParentUniqueName6 = StepByStep.sln
-		SccProjectName6 = Server.Main
-		SccLocalPath6 = Server.Main
-		SccProjectUniqueName7 = Subscriber.Main\\Subscriber.Main.csproj
-		SccProjectTopLevelParentUniqueName7 = StepByStep.sln
-		SccProjectName7 = Subscriber.Main
-		SccLocalPath7 = Subscriber.Main
-		SccProjectUniqueName8 = Subscriber.AppService\\Subscriber.AppService.csproj
-		SccProjectTopLevelParentUniqueName8 = StepByStep.sln
-		SccProjectName8 = Subscriber.AppService
-		SccLocalPath8 = Subscriber.AppService
-		SccProjectUniqueName9 = Client\\Client.csproj
-		SccProjectTopLevelParentUniqueName9 = StepByStep.sln
-		SccProjectName9 = Client
-		SccLocalPath9 = Client
-		SccProjectUniqueName10 = Shared\\Shared.csproj
-		SccProjectName10 = Shared
-		SccLocalPath10 = Shared
-		SccProjectUniqueName11 = Server\\Server.csproj
-		SccProjectTopLevelParentUniqueName11 = StepByStep.sln
-		SccProjectName11 = Server
-		SccLocalPath11 = Server
-		SccProjectUniqueName12 = Subscriber\\Subscriber.csproj
-		SccProjectTopLevelParentUniqueName12 = StepByStep.sln
-		SccProjectName12 = Subscriber
-		SccLocalPath12 = Subscriber
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Dev|Any CPU = Dev|Any CPU

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace CCMS.Infrastructure.Interfaces
+namespace Infrastructure.Interfaces
 {
     public interface IDependencyResolver
     {

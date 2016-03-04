@@ -1,4 +1,4 @@
-namespace CCMS.Infrastructure.ServiceBus
+namespace Infrastructure.ServiceBus
 {
     public interface IHandle<in T> where T: IMessage
     {

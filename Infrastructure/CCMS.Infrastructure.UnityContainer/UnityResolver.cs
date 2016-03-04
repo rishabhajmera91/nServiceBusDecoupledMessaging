@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using CCMS.Infrastructure.Interfaces;
+using Infrastructure.Interfaces;
 using Microsoft.Practices.Unity;
 
-namespace CCMS.Infrastructure.UnityContainer
+namespace Infrastructure.UnityContainer
 {
     public class UnityResolver : IDependencyResolver
     {

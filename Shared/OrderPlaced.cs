@@ -1,5 +1,5 @@
 ﻿using System;
-using CCMS.Infrastructure.ServiceBus;
+using Infrastructure.ServiceBus;
 
 #region OrderPlaced
 public class OrderPlaced : IEvent
